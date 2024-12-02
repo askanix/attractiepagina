@@ -179,7 +179,75 @@ th{
 
 
 
+/* ==========================================attracties==============================*/
 
+.cards{
+  color: #0B351D;
+  font-family: Oxanium;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card{
+  border-radius: 20px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+.background{
+  padding: 100px 0;
+  background-position: center;
+  background-size: cover;
+}
+.card h1, h2{
+  margin: 0;
+  padding: 0;
+}
+.attractie{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.fastpass{
+  grid-column: span 2;
+}
+/* .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+.info h1{
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #849D8E;
+}
+.info h2{
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.light{
+  color: #849D8E;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.fphidden{
+ display: none;
+ width: 50%;
+}
+.book{
+  text-align: center;
+}
+.book a{
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #3ED67D;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5rem;
+}
 
 /* ==========================================================================
    Helper classes
